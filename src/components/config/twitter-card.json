@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_config_twitter_cards",
+  "info": {
+    "displayName": "twitter card"
+  },
+  "options": {},
+  "attributes": {
+    "twitter_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "twitter_title": {
+      "type": "string"
+    }
+  }
+}

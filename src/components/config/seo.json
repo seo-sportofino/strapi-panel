@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_config_seos",
+  "info": {
+    "displayName": "seo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "canonical": {
+      "type": "string"
+    },
+    "sitemap": {
+      "type": "boolean",
+      "default": true
+    },
+    "meta_robots": {
+      "type": "enumeration",
+      "enum": [
+        "index, follow",
+        "noindex, follow",
+        "index, nofollow",
+        "noindex, nofollow"
+      ],
+      "default": "index, follow",
+      "required": true
+    }
+  }
+}

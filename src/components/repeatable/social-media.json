@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_repeatable_social_medias",
+  "info": {
+    "displayName": "Social Media",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "medium": {
+      "type": "enumeration",
+      "enum": [
+        "Facebook",
+        "Instagram",
+        "Website",
+        "Twitter",
+        "Linkedin"
+      ],
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

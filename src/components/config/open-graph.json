@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_config_open_graphs",
+  "info": {
+    "displayName": "open graph"
+  },
+  "options": {},
+  "attributes": {
+    "og_title": {
+      "type": "string"
+    },
+    "og_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": false
+    }
+  }
+}

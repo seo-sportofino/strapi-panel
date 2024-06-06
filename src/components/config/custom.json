@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_config_customs",
+  "info": {
+    "displayName": "custom"
+  },
+  "options": {},
+  "attributes": {
+    "custom_code": {
+      "type": "text"
+    },
+    "custom_style": {
+      "type": "text"
+    }
+  }
+}
